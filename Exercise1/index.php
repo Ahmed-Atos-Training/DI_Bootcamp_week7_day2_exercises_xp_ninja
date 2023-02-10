@@ -1,24 +1,16 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <title></title>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
-
 <body>
-  <form action="" method="post">
-    <label for="">nombre colonne & ligne </label>
-    <input type="text" name="number" placeholder="entrer un nombre"><br>
-    <input type="submit" value="Submit" name="submit">
-  </form>
-  <br>
-  <br>
-
+  
   <table width="400px" cellspacing="0px" cellpadding="0px" border="1px">
-
     <?php
-//recuperation du nombre entreer par l'utlisateur pour generer le damier
+    //recuperation du nombre entreer par l'utlisateur pour generer le damier
     if (isset($_POST['submit'])) {
 
       $number = $_POST['number'];
